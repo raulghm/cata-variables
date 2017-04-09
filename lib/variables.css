@@ -1,0 +1,174 @@
+/**
+ * Variables
+ *
+ * Basic set of variables. Useful for scaffolding or other basic projects.
+ */
+
+:root {
+
+  /* Colors
+    ========================================================================= */
+
+  /* Basic colors */
+
+  --color-white: #fff;
+  --color-black: #111;
+
+  /* Gray colors */
+
+  --color-gray-darker: #222;
+  --color-gray-dark: #333;
+  --color-gray: #555;
+  --color-gray-light: #bbb;
+  --color-gray-lighter: #eee;
+
+  /* States colors */
+
+  --color-primary: #496ee8;
+  --color-success: #20c77f;
+  --color-info: #3498db;
+  --color-warning: #e67e22;
+  --color-danger: #e84949;
+
+  /* Custom native colors
+    https://github.com/mrmrs/colors/blob/master/css/colors.css#L44
+   ========================================================================= */
+
+  /* Cool */
+
+  --color-aqua: #7fdbff;
+  --color-blue: #0074d9;
+  --color-navy: #001f3f;
+  --color-teal: #39cccc;
+  --color-green: #2ecc40;
+  --color-olive: #3d9970;
+  --color-lime: #01ff70;
+
+  /* Warm */
+
+  --color-yellow: #ffdc00;
+  --color-orange: #ff851b;
+  --color-red: #ff4136;
+  --color-fuchsia: #f012be;
+  --color-purple: #b10dc9;
+  --color-maroon: #85144b;
+
+  /* Typographic
+    The ratios are based off of the ratios used on modular scale.
+    https://github.com/corysimmons/typographic
+   ========================================================================= */
+
+  /* Ratios */
+
+  --minor-second: 1.067;
+  --major-second: 1.125;
+  --minor-third: 1.2;
+  --major-third: 1.25;
+  --perfect-fourth: 1.333;
+  --aug-fourth: 1.414;
+  --perfect-fifth: 1.5;
+  --minor-sixth: 1.6;
+  --golden: 1.618;
+  --major-sixth: 1.667;
+  --minor-seventh: 1.778;
+  --major-seventh: 1.875;
+  --octave: 2;
+  --major-tenth: 2.5;
+  --major-eleventh: 2.667;
+  --major-twelfth: 3;
+  --double-octave: 4;
+
+  /* Font stack
+    http://www.awayback.com/revised-font-stack
+    ========================================================================= */
+
+  /* Sans-serif */
+
+  --font-family-calibri: "Calibri", "Candara", "Segoe", "Segoe UI", "Optima", "Arial", "sans-serif";
+  --font-family-candara: "Candara", "Calibri", "Segoe", "Segoe UI", "Optima", "Arial", "sans-serif";
+  --font-family-courier: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", "monospace";
+  --font-family-franklin: "Franklin Gothic Medium", "Arial", "sans-serif";
+  --font-family-futura: "Futura", "Trebuchet MS", "Arial", "sans-serif";
+  --font-family-geneva: "Geneva", "Tahoma", "Verdana", "sans-serif";
+  --font-family-gill-sans: "Gill Sans", "Gill Sans MT", "Calibri", "sans-serif";
+  --font-family-helvetica: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+  --font-family-lucida-grande: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", "Verdana", "sans-serif";
+  --font-family-optima: "Optima", "Segoe", "Segoe UI", "Candara", "Calibri", "Arial", "sans-serif";
+  --font-family-segoe: "Segoe", "Segoe UI", "Helvetica Neue", "Arial", "sans-serif";
+  --font-family-tahoma: "Tahoma", "Geneva", "Verdana", "sans-serif";
+  --font-family-trebuchet: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Tahoma", "sans-serif";
+  --font-family-verdana: "Verdana", "Geneva", "sans-serif";
+
+  /* Serif */
+
+  --font-family-antiqua: "Book Antiqua", "Palatino", "Palatino Linotype", "Palatino LT STD", "Georgia", "serif";
+  --font-family-baskerville: "Baskerville", "Baskerville old face", "Hoefler Text", "Garamond", "Times New Roman", "serif";
+  --font-family-bodoni: "Bodoni MT", "Didot", "Didot LT STD", "Hoefler Text", "Garamond", "Times New Roman", "serif";
+  --font-family-cambria: "Cambria", "Georgia", "serif";
+  --font-family-caslon: "Big Caslon", "Book Antiqua", "Palatino Linotype", "Georgia", "serif";
+  --font-family-constantia: "Constantia", "Palatino", "Palatino Linotype", "Palatino LT STD", "Georgia", "serif";
+  --font-family-didot: "Didot", "Didot LT STD", "Hoefler Text", "Garamond", "Times New Roman", "serif";
+  --font-family-garamond: "Garamond", "Baskerville", "Baskerville Old Face", "Hoefler Text", "Times New Roman", "serif";
+  --font-family-goudy: "Goudy Old Style", "Garamond", "Big Caslon", "Times New Roman", "serif";
+  --font-family-hoefler: "Hoefler Text", "Baskerville old face", "Garamond", "Times New Roman", "serif";
+  --font-family-lucida-bright: "Lucida Bright", "Georgia", "serif";
+  --font-family-palatino: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", "Georgia", "serif";
+
+  /* Base variables */
+
+  --background-color-base: var(--color-white);
+  --font-weight-base: 300;
+  --color-base: var(--color-black);
+  --font-size-base: 14px;
+  --line-height-base: var(--perfect-fifth);
+  --line-height-computed: calc(var(--font-size-base) * var(--line-height-base));
+  --font-family-sans-serif: var(--font-family-helvetica);
+  --font-family-serif: var(--font-family-lucida-bright);
+  --font-family-code: var(--font-family-courier);
+  --font-family-base: var(--font-family-sans-serif);
+  --link-color-base: var(--color-primary);
+  --link-color-hover-base: var(--link-color-base);
+
+  /* Type variables */
+
+  --font-size-sm: calc(var(--font-size-base) - var(--minor-second));
+  --font-size-md: calc(var(--font-size-base) * var(--minor-third));
+  --font-size-lg: calc(var(--font-size-base) * var(--major-third));
+
+  --font-size-h1: calc(var(--font-size-base) * var(--major-eleventh));
+  --font-size-h2: calc(var(--font-size-base) * var(--octave));
+  --font-size-h3: calc(var(--font-size-base) * var(--major-sixth));
+  --font-size-h4: calc(var(--font-size-base) * var(--major-third));
+  --font-size-h5: var(--font-size-base);
+  --font-size-h6: calc(var(--font-size-base) * 0.85);
+
+  --font-family-headings: inherit;
+  --font-weight-headings: 500;
+  --line-height-headings: var(--major-second);
+  --color-headings: inherit;
+
+  /* Components variables
+    Definition of common properties for components
+    ========================================================================= */
+
+  --line-height-sm: var(--perfect-fourth);
+  --line-height-md: var(--minor-third);
+  --line-height-lg: var(--perfect-fifth);
+
+  --border-radius-base: 0.25rem;
+  --border-radius-sm: 0.2rem;
+  --border-radius-md: 0.26rem;
+  --border-radius-lg: 0.3rem;
+
+  --padding-base-vertical: 6px;
+  --padding-base-horizontal: 14px;
+
+  --padding-sm-vertical: 5px;
+  --padding-sm-horizontal: 10px;
+
+  --padding-md-vertical: 10px;
+  --padding-md-horizontal: 14px;
+
+  --padding-lg-vertical: 10px;
+  --padding-lg-horizontal: 16px;
+}

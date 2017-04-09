@@ -1,0 +1,224 @@
+@import "suitcss-components-test";
+@import "../index.css";
+
+/* Basic colors */
+
+.color-white {
+  background-color: #fff;
+}
+
+.color-black {
+  background-color: #111;
+}
+
+/* Gray colors */
+
+.color-gray-darker {
+  background-color: #222;
+}
+
+.color-gray-dark {
+  background-color: #333;
+}
+
+.color-gray {
+  background-color: #555;
+}
+
+.color-gray-light {
+  background-color: #bbb;
+}
+
+.color-gray-lighter {
+  background-color: #eee;
+}
+
+/* States colors */
+
+.color-primary {
+  background-color: #496ee8;
+}
+
+.color-success {
+  background-color: #20c77f;
+}
+
+.color-info {
+  background-color: #3498db;
+}
+
+.color-warning {
+  background-color: #e67e22;
+}
+
+.color-danger {
+  background-color: #e84949;
+}
+
+/* Cool */
+
+.color-aqua {
+  background-color: #7fdbff;
+}
+
+.color-blue {
+  background-color: #0074d9;
+}
+
+.color-navy {
+  background-color: #001f3f;
+}
+
+.color-teal {
+  background-color: #39cccc;
+}
+
+.color-green {
+  background-color: #2ecc40;
+}
+
+.color-olive {
+  background-color: #3d9970;
+}
+
+.color-lime {
+  background-color: #01ff70;
+}
+
+/* Warm colors */
+
+.color-yellow {
+  background-color: #ffdc00;
+}
+
+.color-orange {
+  background-color: #ff851b;
+}
+
+.color-red {
+  background-color: #ff4136;
+}
+
+.color-fuchsia {
+  background-color: #f012be;
+}
+
+.color-purple {
+  background-color: #b10dc9;
+}
+
+.color-maroon {
+  background-color: #85144b;
+}
+
+/**
+ * Font stack
+ */
+
+/* Sans-serif */
+
+.font-family-calibri {
+  font-family: var(--font-family-calibri);
+}
+
+.font-family-candara {
+  font-family: var(--font-family-candara);
+}
+
+.font-family-courier {
+  font-family: var(--font-family-courier);
+}
+
+.font-family-franklin {
+  font-family: var(--font-family-franklin);
+}
+
+.font-family-futura {
+  font-family: var(--font-family-futura);
+}
+
+.font-family-geneva {
+  font-family: var(--font-family-geneva);
+}
+
+.font-family-gill-sans {
+  font-family: var(--font-family-gill-sans);
+}
+
+.font-family-helvetica {
+  font-family: var(--font-family-helvetica);
+}
+
+.font-family-lucida-grande {
+  font-family: var(--font-family-lucida-grande);
+}
+
+.font-family-optima {
+  font-family: var(--font-family-optima);
+}
+
+.font-family-segoe {
+  font-family: var(--font-family-segoe);
+}
+
+.font-family-tahoma {
+  font-family: var(--font-family-tahoma);
+}
+
+.font-family-trebuchet {
+  font-family: var(--font-family-trebuchet);
+}
+
+.font-family-verdana {
+  font-family: var(--font-family-verdana);
+}
+
+/* Serif */
+
+.font-family-antiqua {
+  font-family: var(--font-family-antiqua);
+}
+
+.font-family-baskerville {
+  font-family: var(--font-family-baskerville);
+}
+
+.font-family-bodoni {
+  font-family: var(--font-family-bodoni);
+}
+
+.font-family-cambria {
+  font-family: var(--font-family-cambria);
+}
+
+.font-family-caslon {
+  font-family: var(--font-family-caslon);
+}
+
+.font-family-constantia {
+  font-family: var(--font-family-constantia);
+}
+
+.font-family-didot {
+  font-family: var(--font-family-didot);
+}
+
+.font-family-garamond {
+  font-family: var(--font-family-garamond);
+}
+
+.font-family-goudy {
+  font-family: var(--font-family-goudy);
+}
+
+.font-family-hoefler {
+  font-family: var(--font-family-hoefler);
+}
+
+.font-family-lucida-bright {
+  font-family: var(--font-family-lucida-bright);
+}
+
+.font-family-palatino {
+  font-family: var(--font-family-palatino);
+}
