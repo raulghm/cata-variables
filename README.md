@@ -4,6 +4,9 @@
 
 `cata-variables` 
 
+## Description
+TODO
+
 Read more about how to use [SUIT CSS](https://github.com/suitcss/suit/).
 
 ## Installation
