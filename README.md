@@ -16,7 +16,7 @@ Basic set of variables. Useful for rapid scaffolding.
 
 ## Installation
 
-## NPM 
+## NPM 
 ```
 npm install cata-variables
 ```
