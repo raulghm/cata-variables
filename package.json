@@ -36,7 +36,7 @@
   ],
   "style": "index.css",
   "devDependencies": {
-    "stylelint-config-suitcss": "^10.0.0",
+    "stylelint-config-suitcss": "^14.0.0",
     "suitcss-components-test": "^1.0.0",
     "suitcss-preprocessor": "suitcss/preprocessor#master"
   }
