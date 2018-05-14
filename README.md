@@ -2,9 +2,17 @@
 
 [![Build Status](https://travis-ci.org/raulghm/cata-variables.svg?branch=master)](https://travis-ci.org/raulghm/cata-variables)
 
-`cata-variables` 
+Basic set of variables. Useful for rapid scaffolding.
 
-Read more about how to use [SUIT CSS](https://github.com/suitcss/suit/).
+## Features
+
+* Colors
+* Typographic
+* Ratios (modular scale)
+* Font stacks
+* Base variables
+* Font sizes
+* Common properties for components
 
 ## Installation
 
