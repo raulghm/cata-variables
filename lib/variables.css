@@ -1,13 +1,8 @@
 /**
- * Variables
- *
- * Basic set of variables. Useful for scaffolding or other basic projects.
+ * Colors
  */
 
 :root {
-
-  /* Colors
-    ========================================================================= */
 
   /* Basic colors */
 
@@ -30,9 +25,10 @@
   --color-warning: #e67e22;
   --color-danger: #e84949;
 
-  /* Custom native colors
-    https://github.com/mrmrs/colors/blob/master/css/colors.css#L44
-   ========================================================================= */
+  /**
+   * Custom native colors
+   * https://github.com/mrmrs/colors/blob/master/css/colors.css#L44
+   */
 
   /* Cool */
 
@@ -52,11 +48,16 @@
   --color-fuchsia: #f012be;
   --color-purple: #b10dc9;
   --color-maroon: #85144b;
+}
 
-  /* Typographic
-    The ratios are based off of the ratios used on modular scale.
-    https://github.com/corysimmons/typographic
-   ========================================================================= */
+/**
+ * Typographic
+ *
+ * The ratios are based off of the ratios used on modular scale.
+ * https://github.com/corysimmons/typographic
+ */
+
+:root {
 
   /* Ratios */
 
@@ -77,10 +78,14 @@
   --major-eleventh: 2.667;
   --major-twelfth: 3;
   --double-octave: 4;
+}
 
-  /* Font stack
-    http://www.awayback.com/revised-font-stack
-    ========================================================================= */
+/**
+ * Font stack
+ * http://www.awayback.com/revised-font-stack
+ */
+
+:root {
 
   /* Sans-serif */
 
@@ -113,8 +118,15 @@
   --font-family-hoefler: "Hoefler Text", "Baskerville old face", "Garamond", "Times New Roman", "serif";
   --font-family-lucida-bright: "Lucida Bright", "Georgia", "serif";
   --font-family-palatino: "Palatino", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", "Georgia", "serif";
+}
 
-  /* Base variables */
+/**
+ * Base variables
+ */
+
+:root {
+
+  /* Base */
 
   --background-color-base: var(--color-white);
   --font-weight-base: 300;
@@ -146,11 +158,13 @@
   --font-weight-headings: 500;
   --line-height-headings: var(--major-second);
   --color-headings: inherit;
+}
 
-  /* Components variables
-    Definition of common properties for components
-    ========================================================================= */
+/**
+ * Definition of common properties for components
+ */
 
+:root {
   --line-height-sm: var(--perfect-fourth);
   --line-height-md: var(--minor-third);
   --line-height-lg: var(--perfect-fifth);
